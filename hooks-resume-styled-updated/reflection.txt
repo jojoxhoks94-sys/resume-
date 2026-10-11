@@ -1,0 +1,28 @@
+CSS Portfolio Reflection
+
+Two visible changes are the dark blue header with white text and the white content sections with padding and borders. The header makes the page title and navigation stand out, while the section backgrounds separate topics so readers can scan the resume more easily. I also set a comfortable line-height and use a consistent font family to make paragraphs easier to read.
+
+The body element supplies the inherited font family and text color to its descendants. For example, paragraphs and list items inherit Arial (or its fallback) and the dark text color unless a more specific rule changes them.
+
+Two competing color declarations for the summary section are shown below. The ID selector has greater specificity than the element selector, so the ID rule wins when both apply.
+
+```css
+section {
+    background-color: #f8fafc;
+}
+
+#summary {
+    background-color: #ffffff;
+}
+```
+
+A margin declaration creates space outside an element, separating it from nearby elements. A padding declaration creates space inside an element, between its content and its border.
+
+```css
+section {
+    margin: 1.25rem 0;
+    padding: 1.25rem;
+}
+```
+
+I would test each page in a browser, use Tab to confirm the navigation focus outline is visible, and inspect a section in DevTools to see which stylesheet rule is applied.
