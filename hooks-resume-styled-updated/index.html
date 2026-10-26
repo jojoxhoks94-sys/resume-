@@ -1,97 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Resume</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Jordan Hooks' computer science resume and portfolio.">
+  <title>Jordan Hooks | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body class="resume-page">
-
-    <header class="site-header">
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="identity">
+        <p class="eyebrow">COMPUTER SCIENCE • GAME DEVELOPMENT</p>
         <h1>Jordan Hooks</h1>
-        <p>Computer Science Student | Football Player | Resident Assistant</p>
+        <p class="tagline">Computer Science Student | Football Player | Resident Assistant</p>
+      </div>
+      <img class="profile-photo" src="images/profile.jpg" alt="Jordan Hooks receiving an award at graduation" width="300">
+    </div>
+    <nav class="site-nav" aria-label="Main navigation">
+      <a href="index.html" aria-current="page">Home</a>
+      <a href="hobbies.html">Hobbies</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
 
-        <img class="profile-photo" src="images/profile.jpg" alt="Jordan Hooks receiving an award at graduation" width="300">
+  <main class="page-layout">
+    <section id="summary" class="panel intro">
+      <p class="section-kicker">WELCOME</p>
+      <h2>Summary / Objective</h2>
+      <p>I am a Computer Science student at Sul Ross State University interested in game development. My goal is to continue developing my technical and professional skills while gaining experience that will prepare me for a career in the game development field.</p>
+    </section>
 
-        <nav class="site-nav">
-            <a href="index.html">Home</a> |
-            <a href="hobbies.html">Hobbies</a> |
-            <a href="contact.html">Contact</a>
-        </nav>
-    </header>
+    <section id="education" class="panel">
+      <p class="section-kicker">ACADEMICS</p>
+      <h2>Education</h2>
+      <h3>Sul Ross State University</h3>
+      <p>Computer Science<br>Alpine, Texas<br>Expected Graduation: 2028</p>
+    </section>
 
-    <main>
+    <section id="experience" class="panel">
+      <p class="section-kicker">EXPERIENCE</p>
+      <h2>Work Experience</h2>
+      <h3>Resident Assistant</h3>
+      <p class="muted">Sul Ross State University | 2026–Present</p>
+      <ul>
+        <li>Help create a welcoming and supportive environment for residents.</li>
+        <li>Communicate with residents and assist with questions and concerns.</li>
+        <li>Help organize community activities and events.</li>
+        <li>Develop leadership, communication, and organizational skills.</li>
+      </ul>
+      <h3>1-800-GOT-JUNK?</h3>
+      <ul>
+        <li>Help customers remove old furniture and unwanted items.</li>
+        <li>Assist customers with clearing trash before moving into a new home.</li>
+        <li>Use problem-solving and teamwork to complete jobs.</li>
+      </ul>
+    </section>
 
-        <section id="summary" class="intro">
-            <h2>Summary / Objective</h2>
-            <p>
-                I am a Computer Science student at Sul Ross State University interested in game development.
-                My goal is to continue developing my technical and professional skills while gaining
-                experience that will prepare me for a career in the game development field.
-            </p>
-        </section>
+    <section id="skills" class="panel">
+      <p class="section-kicker">WHAT I BRING</p>
+      <h2>Skills</h2>
+      <ul class="skills-list">
+        <li>Computer Science</li><li>Problem Solving</li><li>Teamwork</li>
+        <li>Communication</li><li>Leadership</li><li>Time Management</li>
+        <li>Visual Studio Code</li>
+      </ul>
+    </section>
 
-        <section id="education" class="education">
-            <h2>Education</h2>
-            <h3>Sul Ross State University</h3>
-            <p>
-                Computer Science<br>
-                Alpine, Texas<br>
-                Expected Graduation: 2028
-            </p>
-        </section>
+    <section id="awards" class="panel">
+      <p class="section-kicker">MILESTONES</p>
+      <h2>Awards, Certifications, and Achievements</h2>
+      <ul>
+        <li>Computer Science student at Sul Ross State University</li>
+        <li>Made the Dean's List three times</li>
+        <li>College football athlete</li>
+        <li>High school graduate</li>
+        <li>LSC Commissioner's List for honor roll</li>
+      </ul>
+    </section>
 
-        <section id="experience" class="experience">
-            <h2>Work Experience</h2>
+    <section id="projects" class="panel projects-panel">
+      <p class="section-kicker">SELECTED WORK</p>
+      <h2>Project Gallery</h2>
+      <p class="section-intro">A look at my coursework, interests, and the projects I want to keep building.</p>
+      <div class="project-grid">
+        <article class="project-card project-feature">
+          <span class="project-number">01 / PORTFOLIO</span>
+          <div class="project-icon" aria-hidden="true">{"</>"}</div>
+          <h3>Resume Website</h3>
+          <p>A multi-page personal portfolio built with semantic HTML and responsive CSS.</p>
+          <span class="project-tag">HTML • CSS</span>
+        </article>
+        <article class="project-card">
+          <span class="project-number">02 / GAME DESIGN</span>
+          <div class="project-icon" aria-hidden="true">✦</div>
+          <h3>Game Development</h3>
+          <p>Exploring the skills and tools used to design interactive game experiences.</p>
+          <span class="project-tag">Design • Ideas</span>
+        </article>
+        <article class="project-card">
+          <span class="project-number">03 / COURSEWORK</span>
+          <div class="project-icon" aria-hidden="true">⌘</div>
+          <h3>Web Page Practice</h3>
+          <p>Practicing page structure, navigation, links, images, and accessible content.</p>
+          <span class="project-tag">Web • Learning</span>
+        </article>
+        <article class="project-card">
+          <span class="project-number">04 / NEXT STEP</span>
+          <div class="project-icon" aria-hidden="true">＋</div>
+          <h3>Future Project</h3>
+          <p>A space for a future programming or game project as my technical skills grow.</p>
+          <span class="project-tag">In Progress</span>
+        </article>
+      </div>
+      <p class="project-note">Note: These cards describe current interests and planned work; replace them with finished projects as they become available.</p>
+    </section>
+  </main>
 
-            <h3>Resident Assistant</h3>
-            <p>Sul Ross State University | 2026 - Present</p>
-            <ul>
-                <li>Help create a welcoming and supportive environment for residents.</li>
-                <li>Communicate with residents and assist with questions and concerns.</li>
-                <li>Help organize community activities and events.</li>
-                <li>Develop leadership, communication, and organizational skills.</li>
-            </ul>
-
-            <h3>1-800-GOT-JUNK?</h3>
-            <ul>
-                <li>Helping customers remove old furniture.</li>
-                <li>Helping customers get rid of trash so they can move into a new house.</li>
-                <li>Work that requires problem-solving and teamwork.</li>
-            </ul>
-        </section>
-
-        <section id="skills" class="skills">
-            <h2>Skills</h2>
-            <ul>
-                <li>Computer Science</li>
-                <li>Problem Solving</li>
-                <li>Teamwork</li>
-                <li>Communication</li>
-                <li>Leadership</li>
-                <li>Time Management</li>
-                <li>Visual Studio Code</li>
-            </ul>
-        </section>
-
-        <section id="awards" class="awards">
-            <h2>Awards, Certifications, and Achievements</h2>
-            <ul>
-                <li>Computer Science student at Sul Ross State University</li>
-                <li>Making Dean's List 3 times</li>
-                <li>College football athlete</li>
-                <li>Graduated High School</li>
-                <li>LSC Commissioner List for honor roll</li>
-            </ul>
-        </section>
-
-    </main>
-
-    <footer class="site-footer">
-        <p>&copy; 2026 Jordan Hooks. All rights reserved.</p>
-    </footer>
-
+  <footer class="site-footer">
+    <p>© 2026 Jordan Hooks. All rights reserved.</p>
+  </footer>
 </body>
 </html>
