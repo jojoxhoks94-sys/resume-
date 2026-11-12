@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Jordan Hooks' computer science resume and portfolio.">
+  <title>Jordan Hooks | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="resume-page">
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="identity">
+        <p class="eyebrow">COMPUTER SCIENCE • GAME DEVELOPMENT</p>
+        <h1>Jordan Hooks</h1>
+        <p class="tagline">Computer Science Student | Football Player | Resident Assistant</p>
+      </div>
+      <img class="profile-photo" src="images/profile.jpg" alt="Jordan Hooks receiving a certificate at a university ceremony">
+    </div>
+    <nav class="site-nav" aria-label="Main navigation">
+      <a href="index.html" aria-current="page">Home</a>
+      <a href="hobbies.html">Hobbies</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main class="page-layout">
+    <section id="summary" class="panel intro">
+      <p class="section-kicker">WELCOME</p>
+      <h2>Summary / Objective</h2>
+      <p>I am a Computer Science student at Sul Ross State University interested in game development. My goal is to continue developing my technical and professional skills while gaining experience that will prepare me for a career in the game development field.</p>
+    </section>
+
+    <section id="education" class="panel">
+      <p class="section-kicker">ACADEMICS</p>
+      <h2>Education</h2>
+      <h3>Sul Ross State University</h3>
+      <p>Computer Science<br>Alpine, Texas<br>Expected Graduation: 2028</p>
+    </section>
+
+    <section id="experience" class="panel">
+      <p class="section-kicker">EXPERIENCE</p>
+      <h2>Work Experience</h2>
+      <h3>Resident Assistant</h3>
+      <p class="muted">Sul Ross State University | 2026–Present</p>
+      <ul>
+        <li>Help create a welcoming and supportive environment for residents.</li>
+        <li>Communicate with residents and assist with questions and concerns.</li>
+        <li>Help organize community activities and events.</li>
+        <li>Develop leadership, communication, and organizational skills.</li>
+      </ul>
+      <h3>1-800-GOT-JUNK?</h3>
+      <ul>
+        <li>Help customers remove old furniture and unwanted items.</li>
+        <li>Assist customers with clearing trash before moving into a new home.</li>
+        <li>Use problem-solving and teamwork to complete jobs.</li>
+      </ul>
+    </section>
+
+    <section id="skills" class="panel">
+      <p class="section-kicker">WHAT I BRING</p>
+      <h2>Skills</h2>
+      <ul class="skills-list">
+        <li>Computer Science</li><li>Problem Solving</li><li>Teamwork</li>
+        <li>Communication</li><li>Leadership</li><li>Time Management</li>
+        <li>Visual Studio Code</li>
+      </ul>
+    </section>
+
+    <section id="awards" class="panel">
+      <p class="section-kicker">MILESTONES</p>
+      <h2>Awards, Certifications, and Achievements</h2>
+      <ul>
+        <li>Computer Science student at Sul Ross State University</li>
+        <li>Made the Dean's List three times</li>
+        <li>College football athlete</li>
+        <li>High school graduate</li>
+        <li>LSC Commissioner's List for honor roll</li>
+      </ul>
+    </section>
+
+    <section id="projects" class="panel projects-panel">
+      <p class="section-kicker">SELECTED WORK</p>
+      <h2>Project Gallery</h2>
+      <p class="section-intro">A look at my coursework, interests, and the projects I want to keep building.</p>
+      <div class="project-grid">
+        <article class="project-card project-feature">
+          <span class="project-number">01 / PORTFOLIO</span>
+          <div class="project-icon" aria-hidden="true">&lt;/&gt;</div>
+          <h3>Resume Website</h3>
+          <p>A multi-page personal portfolio built with semantic HTML and responsive CSS.</p>
+          <span class="project-tag">HTML • CSS</span>
+        </article>
+        <article class="project-card">
+          <span class="project-number">02 / GAME DESIGN</span>
+          <div class="project-icon" aria-hidden="true">✦</div>
+          <h3>Game Development</h3>
+          <p>Exploring the skills and tools used to design interactive game experiences.</p>
+          <span class="project-tag">Design • Ideas</span>
+        </article>
+        <article class="project-card">
+          <span class="project-number">03 / COURSEWORK</span>
+          <div class="project-icon" aria-hidden="true">⌘</div>
+          <h3>Web Page Practice</h3>
+          <p>Practicing page structure, navigation, links, images, and accessible content.</p>
+          <span class="project-tag">Web • Learning</span>
+        </article>
+        <article class="project-card">
+          <span class="project-number">04 / NEXT STEP</span>
+          <div class="project-icon" aria-hidden="true">＋</div>
+          <h3>Future Project</h3>
+          <p>A space for a future programming or game project as my technical skills grow.</p>
+          <span class="project-tag">In Progress</span>
+        </article>
+      </div>
+      <p class="project-note">Note: These cards describe current interests and planned work; replace them with finished projects as they become available.</p>
+    </section>
+
+
+    <section id="contact" class="panel contact-panel" aria-labelledby="contact-heading">
+      <p class="section-kicker">GET IN TOUCH</p>
+      <h2 id="contact-heading">Contact Me</h2>
+      <p class="section-intro">Have a question or want to connect? Fill out the form below.</p>
+      <form class="contact-form" id="contact-form" action="#contact" method="get">
+        <div class="form-field">
+          <label for="full-name">Full Name <span aria-hidden="true">*</span></label>
+          <input type="text" id="full-name" name="fullName" autocomplete="name" minlength="2" maxlength="80" required>
+        </div>
+        <div class="form-field">
+          <label for="email-address">Email Address <span aria-hidden="true">*</span></label>
+          <input type="email" id="email-address" name="email" autocomplete="email" maxlength="120" required>
+        </div>
+        <div class="form-field">
+          <label for="contact-reason">Reason for Contacting <span aria-hidden="true">*</span></label>
+          <select id="contact-reason" name="reason" required>
+            <option value="" selected disabled>Select a reason</option>
+            <option value="professional">Professional opportunity</option>
+            <option value="school">School or coursework</option>
+            <option value="game-development">Game development</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+        <div class="form-field">
+          <label for="phone-number">Phone Number (optional)</label>
+          <input type="tel" id="phone-number" name="phone" autocomplete="tel" placeholder="e.g. 555-123-4567">
+        </div>
+        <div class="form-field form-field-full">
+          <label for="message">Message <span aria-hidden="true">*</span></label>
+          <textarea id="message" name="message" rows="6" minlength="10" maxlength="1000" required></textarea>
+          <small>Enter between 10 and 1,000 characters.</small>
+        </div>
+        <div class="form-actions form-field-full">
+          <button type="submit" class="send-button">Send Message</button>
+          <p class="form-note">Demonstration form only: submitting does not send or save your message.</p>
+          <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2026 Jordan Hooks. All rights reserved.</p>
+  </footer>
+
+  <script>
+    // Demo behavior: let the browser validate fields, then prevent page navigation.
+    const contactForm = document.getElementById("contact-form");
+    const formStatus = document.getElementById("form-status");
+    contactForm.addEventListener("submit", function (event) {
+      event.preventDefault();
+      formStatus.textContent = "Your form passed browser validation. This demo does not send or store messages.";
+      contactForm.reset();
+    });
+  </script>
+</body>
+</html>
